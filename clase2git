@@ -11,10 +11,16 @@ git remote -v //para checkear los remote links como el status.
 
 git push -u origin master //el -u es el parametro de inicio solo se usa en la primera vez
 
+git pull //modifica la rama actual
+
+git fetch origin //parecido al pull pero no afecta a la rama actual local
+
 git clone "url" "nombreNuevo"
 
 git branch //para ver los branches
 git branch --all //para ver todos los branches
+
+git checkout -b "nombre de rama" // -b crea el branch y lo switchea
 
 comandos vim:
 :wq
