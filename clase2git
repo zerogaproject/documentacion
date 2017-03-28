@@ -22,6 +22,9 @@ git branch --all //para ver todos los branches
 
 git checkout -b "nombre de rama" // -b crea el branch y lo switchea
 
+git flow
+http://nvie.com/posts/a-successful-git-branching-model/
+
 comandos vim:
 :wq
 :q!
